@@ -13,6 +13,18 @@ descriptionEl.addEventListener("focus", function () {
     this.select(); // Select all text in descriptionEl
 });
 
+// // Add an event listener to the document for keydown events
+// document.addEventListener("keydown", (event) => {
+//     // Check if the "Enter" key (key code 13) was pressed
+//     if (event.keyCode === 13) {
+//         // Prevent the default form submission behavior
+//         event.preventDefault();
+
+//         // Programmatically trigger a click on the submit button
+//         submitButton.click();
+//     }
+// });
+
 // Add an event listener to the button
 submitBtn.addEventListener("click", () => {
     // Get the values from the input fields

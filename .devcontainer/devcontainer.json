@@ -1,0 +1,47 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/javascript-node
+{
+    "name": "Node.js",
+    // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye",
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "esbenp.prettier-vscode",
+                "ms-vscode.live-server",
+                "pranaygp.vscode-css-peek",
+                "ecmel.vscode-html-css",
+                "streetsidesoftware.code-spell-checker",
+                "adpyke.codesnap",
+                "naumovs.color-highlight",
+                "VisualStudioExptTeam.vscodeintellicode",
+                "xabikos.JavaScriptSnippets",
+                "glenn2223.live-sass",
+                "christian-kohler.path-intellisense",
+                "Postman.postman-for-vscode",
+                "sibiraj-s.vscode-scss-formatter",
+                "rangav.vscode-thunder-client",
+                "aaron-bond.better-comments",
+                "wix.vscode-import-cost",
+                "richie5um2.vscode-sort-json"
+            ]
+        }
+    }
+
+    // Features to add to the dev container. More info: https://containers.dev/features.
+    // "features": {},
+
+    // Use 'forwardPorts' to make a list of ports inside the container available locally.
+    // "forwardPorts": [],
+
+    // Use 'postCreateCommand' to run commands after the container is created.
+    // "postCreateCommand": "yarn install",
+    // "postCreateCommand": "apt-get update && apt-get install -y fonts-firacode"
+
+    // Configure tool-specific properties.
+    // "customizations": {},
+
+    // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+    // "remoteUser": "root"
+}

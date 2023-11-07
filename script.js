@@ -3,6 +3,7 @@ const amountEl = document.getElementById("amount-el");
 const descriptionEl = document.getElementById("description-el");
 const submitBtn = document.getElementById("submit-btn");
 const imageCtn = document.getElementById("image-ctn");
+const qrcodeImage = document.getElementById("qrcode-image");
 
 // Add an event listener to the input fields to select all text when focused
 amountEl.addEventListener("focus", function () {
@@ -50,11 +51,12 @@ submitBtn.addEventListener("click", () => {
     // Create an image element to display the image
     const imageEl = document.createElement("img");
     imageEl.src = qrCodeApi;
+    imageEl.id = "viet-qr-img";
 
     // Clear the previous image (if any) and append the new image
     imageCtn.innerHTML = "";
     imageCtn.appendChild(imageEl);
 
     // Show the image container (if an image is added)
-    imageCtn.style.display = "block";
+    imageCtn.style.display = "flex";
 });

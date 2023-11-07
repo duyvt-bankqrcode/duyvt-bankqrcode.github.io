@@ -16,7 +16,6 @@ button {
 body {
     background-color: #000;
     color: #0f0;
-    /* Green text for the hacker look */
     font-size: 16px;
     height: 100vh;
     display: flex;
@@ -93,17 +92,14 @@ button {
 
 button:hover {
     background-color: #00f;
-    /* Blue on hover */
 }
 
 /* Hide the increment and decrement controls for input[type="number"] */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
     -webkit-appearance: none;
-    /* Remove default appearance (spin buttons) */
     appearance: none;
     margin: 0;
-    /* Remove any default margin */
 }
 
 /* Style the container for the image */
@@ -112,16 +108,17 @@ input[type="number"]::-webkit-outer-spin-button {
     margin-top: 20px;
     border-radius: 10px;
     overflow: hidden;
+    justify-content: center;
 }
 
 /* Style the image inside the container */
 #image-ctn img {
-    max-width: 100%;
-    /* Ensure the image fits within the container */
-    height: auto;
-    /* Maintain the aspect ratio */
     display: block;
-    /* Remove extra spacing below the image */
-    margin: 0 auto;
-    /* Center the image horizontally */
+    max-width: 100%;
+}
+
+#viet-qr-img {
+    width: 600px;
+    height: 576px;
+    margin: -20% 0 -7% 0;
 }

@@ -105,20 +105,20 @@ input[type="number"]::-webkit-outer-spin-button {
 /* Style the container for the image */
 #image-ctn {
     display: none;
+    justify-content: center;
     margin-top: 20px;
     border-radius: 10px;
     overflow: hidden;
-    justify-content: center;
+    height: 80%;
+    width: 95%;
 }
 
 /* Style the image inside the container */
 #image-ctn img {
     display: block;
-    max-width: 100%;
+    max-width: none;
 }
 
 #viet-qr-img {
-    width: 600px;
-    height: 576px;
-    margin: -20% 0 -7% 0;
+    margin-top: -30%;
 }

@@ -109,7 +109,7 @@ input[type="number"]::-webkit-outer-spin-button {
     margin-top: 20px;
     border-radius: 10px;
     overflow: hidden;
-    height: 80%;
+    /* height: 80%; */
 }
 
 /* Style the image inside the container */
@@ -118,6 +118,6 @@ input[type="number"]::-webkit-outer-spin-button {
     max-width: 100%;
 }
 
-#viet-qr-img {
+/* #viet-qr-img {
     margin-top: -20%;
-}
+} */

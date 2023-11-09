@@ -52,9 +52,9 @@ submitBtn.addEventListener("click", () => {
     }
 
     // Check if combining "Shopee Food - " and the user's input exceeds 50 characters
-    if (parseDescription.length <= 35 - "SHOPEEFOOD".length) {
-        parseDescription = `SHOPEEFOOD ${parseDescription}`;
-    }
+    // if (parseDescription.length <= 35 - "SHOPEEFOOD".length) {
+    //     parseDescription = `SHOPEEFOOD ${parseDescription}`;
+    // }
 
     // Limit parseDescription to a maximum of 35 characters
     if (parseDescription.length > 35) {
